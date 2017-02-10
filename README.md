@@ -1,1 +1,1 @@
-Metropolis Hasting Sampler
+A very simple Metropolis algorithm. Will be adding the Hastings part (general proposal distribution) later.
