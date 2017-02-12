@@ -63,7 +63,7 @@ def acceptance(position, proposal, likelihood):
     
 def likelihood(theta):
     """An example one parameter likelihood"""
-    return 1. / np.sqrt(2. * np.pi * 5.) * np.exp(- 0.5 * (theta - 20.) ** 2 / 5. ** 2)
+    return 1. / np.sqrt(2. * np.pi * 25.) * np.exp(- 0.5 * (theta - 20.) ** 2 / 5. ** 2)
 
                   
 def proposal(center):
